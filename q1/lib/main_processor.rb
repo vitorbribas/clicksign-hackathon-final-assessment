@@ -13,7 +13,7 @@ class MainProcessor
 
   def write(type)
     processor = PROCESSORS[type]
-    raise 'Incorrect format' unless processor
+    raise "Ops... not supported file format #{type}" unless processor
 
     processor.new.write
   end

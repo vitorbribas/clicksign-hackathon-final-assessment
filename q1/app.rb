@@ -6,3 +6,4 @@ processor = MainProcessor.new
 processor.write(:json)
 processor.write(:pdf)
 processor.write(:xml)
+processor.write(:csv)
